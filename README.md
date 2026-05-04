@@ -32,7 +32,7 @@ transform.py       ← cleans data + aggregates by year (Pandas)
 | Data ingestion | `requests` |
 | Data transformation | `pandas` |
 | Database | PostgreSQL 15 (Docker) |
-| ORM / DB connector | `SQLAlchemy` + `psycopg2-binary` |
+| ORM / DB connector | `SQLAlchemy` |
 | Containerisation | Docker + Docker Compose |
 | Dashboard | `streamlit` |
 
@@ -91,8 +91,8 @@ python load.py
 Expected output:
 ```
 Data loaded successfully!
-Launches table: 205 rows
-Stats table: 16 rows
+Launches table
+Stats table
 ```
 
 ### 6. Launch the dashboard
